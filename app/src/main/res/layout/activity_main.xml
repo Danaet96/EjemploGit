@@ -7,31 +7,38 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
+    <EditText
         android:layout_marginTop="15sp"
         android:id="@+id/tv1"
+        android:textColor="@color/black"
         android:background="@color/cardview_shadow_start_color"
         android:layout_width="match_parent"
         android:layout_height="100sp">
 
-    </TextView>
-    <TextView
+    </EditText>
+    <EditText
         android:layout_marginTop="15dp"
         android:id="@+id/tv2"
+        android:textColor="@color/black"
         android:background="@color/cardview_shadow_start_color"
         android:layout_width="match_parent"
         android:layout_height="100sp">
-    </TextView>
+    </EditText>
 
     <Button
+        android:id="@+id/btnSaludar"
+        android:textAlignment="center"
+        android:textColor="@color/white"
         android:layout_gravity="center"
         android:layout_marginTop="30sp"
         android:layout_width="150sp"
         android:layout_height="50sp"
-        android:text="SUMAR">
+        android:text="SALUDA">
     </Button>
 
     <TextView
+        android:id="@+id/tvres"
+        android:textColor="@color/white"
         android:background="#3F51B5"
         android:layout_width="match_parent"
         android:layout_height="60sp">
