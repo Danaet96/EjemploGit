@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
          boton=findViewById(R.id.btnSaludar);
 
 
-
+//Esto es una prueba de commit sin push
         boton.setOnClickListener(v->{
 
             ress.setText("Hola "+nombre.getText()+" "+apellido.getText()+" Es un gusto!");
